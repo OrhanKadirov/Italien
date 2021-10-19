@@ -10,16 +10,17 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#!">Mexico</a>
+                <a class="navbar-brand" href="index.html">Mexico</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Blog</a></li>
@@ -28,11 +29,11 @@
             </div>
         </nav>
         <!-- Page header with logo and tagline-->
-        <header class="py-5 bg-light border-bottom mb-4">
+        <header id="hintegrund" class="py-5 border-bottom mb-4">
             <div class="container">
                 <div class="text-center my-5">
                     <h1 class="fw-bolder">Welcome to Mexico</h1>
-                    <p class="lead mb-0">A Bootstrap 5 starter layout for your next blog homepage</p>
+                    <p class="lead mb-0">Nützliche Tips für ihre nächste Mexiko Reise</p>
                 </div>
             </div>
         </header>
@@ -45,7 +46,7 @@
                     <div class="card mb-4">
                         <a href="#!"><img class="card-img-top" src="../Image/banner/Banner.jpg" alt="..." /></a>
                         <div class="card-body">
-                            <div class="small text-muted">January 1, 2021</div>
+                            <div class="small text-muted">Playa del Carmen hat ruhige abgelegene Strände wie auch sehr belebte Strände mit viel Action.</div>
                             <h2 class="card-title">Traumstrände von Cancún bis Tulum
                             Riviera Maya, der wunderschöne Strandabschnitt an der Karibik südlich von Cancún</h2>
                             <p class="card-text">Von Palmen gesäumter Sandstrand,
@@ -57,7 +58,7 @@
                             ebenfalls gezielt die touristische Infrastruktur verbessert und es entstanden zahlreiche Hotels, meist der gehobenen
                             Klasse für Pauschaltouristen. Unvermeidbar in diesem Prozess ist die Verdrängung der einheimischen Bevölkerung, den
                             Nachfahren der Maya, welche hier vor nicht allzu langer Zeit noch in relativer Abgeschiedenheit lebten. Ebenf</p>
-                            <a class="btn btn-primary" href="maya.html">Read more →</a>
+                            <a class="btn btn-primary" href="maya.html" target="__blank">Read more →</a>
                         </div>
                     </div>
                     <!-- Nested row for non-featured blog posts-->
@@ -65,44 +66,53 @@
                         <div class="col-lg-6">
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="../Image/puerto-morelos-riviera-maya-mexiko-1024x683.jpg" alt="..." /></a>
                                 <div class="card-body">
-                                    <div class="small text-muted">January 1, 2021</div>
-                                    <h2 class="card-title h4">Post Title</h2>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                                    <a class="btn btn-primary" href="#!">Read more →</a>
+                                    <div class="small text-muted">Fischer bringen den Fang zurück ins Hafenstädtchen Puerto Morelos.</div>
+                                    <h2 class="card-title h4">Puerto Morelos</h2>
+                                    <p class="card-text">Puerto Morelos ist der am wenigsten entwickelte Ort der Riviera Maya, ein kleiner, um ein Fischerdorf errichteter
+                                    Urlaubsort. Das ruhige Meer und das vorgelagerte Korallenriff laden zum Tauchen und Schnorcheln ein. Reisende geniessen
+                                    seine Ursprünglichkeit und die naturbelassenen Sandstrände. Ein kleines Paradies mit karibischem Flair.</p>
+                                    <a class="btn btn-primary" href="puertomorelos.html" target="__blank">Read more →</a>
                                 </div>
                             </div>
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="../Image/xcaret-erlebnispark-yucatan-mexiko-1024x683.jpg" alt="..." /></a>
                                 <div class="card-body">
-                                    <div class="small text-muted">January 1, 2021</div>
-                                    <h2 class="card-title h4">Post Title</h2>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                                    <a class="btn btn-primary" href="#!">Read more →</a>
+                                    <div class="small text-muted">Für die einten ist es Unterhaltung pur, für die anderen eine Touristenfalls – der Erlebnispark von Xcaret.</div>
+                                    <h2 class="card-title h4">Freizeitpark Xcaret</h2>
+                                    <p class="card-text">Die Hauptattraktion des Erlebnisparkes Xcaret ist der unterirdische Fluss, in welchem man schwimmend und schnorchelnd
+                                    beleuchtete Höhlen und Grotten erkunden kann. An der kleinen Bucht von Xcaret kann man ebenfalls wunderbar schwimmen und
+                                    tauchen. Darüber hinaus gibt es ein tropisches Aquarium, einen botanischen Garten und den Pavillon der Schmetterlinge.</p>
+                                    <a class="btn btn-primary" href="freizeitparkxcare.html" target="__blank">Read more →</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
-                                <div class="card-body">
-                                    <div class="small text-muted">January 1, 2021</div>
-                                    <h2 class="card-title h4">Post Title</h2>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                                    <a class="btn btn-primary" href="#!">Read more →</a>
+                                <a href="#!"><img class="card-img-top" src="../Image/strand-akumal-riviera-maya-yucatan-1024x683.jpg" alt="..." /></a>
+                                <div class="card-body">Cancún
+                                    <div class="small text-muted">Flach abfallende Strände in Akumal erlauben gemütliche Spaziergänge im Wasser.</div>
+                                    <h2 class="card-title h4">Half Moon Bay in Akumal</h2>
+                                    <p class="card-text">Der noch wenig überlaufene Badeort Akumal ist nur für Reisende ein Geheimtipp, die Schildkröten brüten hier schon seit
+                                    eh und je ihre Eier. Im Dezember und Januar sieht man mit etwas Glück sogar die Walhaie vorbeiziehen. Die geschützte
+                                    Bucht zieht vermehrt Schnorchler und Taucher in ihren Bann. Liebhaber von gemütlichen Spaziergängen an feinsandigen,
+                                    flach abfallenden Stränden werden sich in Akumal Cancúnebenso wohl fühlen.</p>
+                                    <a class="btn btn-primary" href="index5.html" target="__blank">Read more →</a>
                                 </div>
                             </div>
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="../Image/riviera-maya-yucatan-mexiko-1024x683.jpg" alt="..." /></a>
                                 <div class="card-body">
-                                    <div class="small text-muted">January 1, 2021</div>
-                                    <h2 class="card-title h4">Post Title</h2>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam.</p>
-                                    <a class="btn btn-primary" href="#!">Read more →</a>
+                                    <div class="small text-muted">Abendstimmung am Strand zwischen Playa del Carmen und Tulum.</div>
+                                    <h2 class="card-title h4">Natürliches Aquarium Xel-Há</h2>
+                                    <p class="card-text">Xel-Há ist eine kleine Bucht, welche mit seinem klaren Wasser und vielen tropischen Fischarten als natürliches Aquarium
+                                    betrachtet wird. Eine Reihe miteinander verbundener Lagunen zwischen Felsen und Höhlen bieten herrlich Möglichkeiten zum
+                                    Tauchen und Schnorcheln.</p>
+                                    <a class="btn btn-primary" href="index6.html" target="__blank">Read more →</a>
                                 </div>
                             </div>
                         </div>
@@ -112,11 +122,8 @@
                         <hr class="my-0" />
                         <ul class="pagination justify-content-center my-4">
                             <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Newer</a></li>
-                            <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
+                            <li class="page-item active" aria-current="page"><a class="page-link" href="index.html">1</a></li>
                             <li class="page-item"><a class="page-link" href="#!">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#!">3</a></li>
-                            <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
-                            <li class="page-item"><a class="page-link" href="#!">15</a></li>
                             <li class="page-item"><a class="page-link" href="#!">Older</a></li>
                         </ul>
                     </nav>
@@ -140,18 +147,18 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">Reise 1</a></li>
-                                        <li><a href="#!">Reise 2</a></li>
-                                        <li><a href="#!">Reise 3</a></li>
-                                        <li><a href="#!">Reise 4</a></li>
+                                        <li><a href="maya.html">Maya</a></li>
+                                        <li><a href="puertomorelos.html">Puerto Moreles</a></li>
+                                        <li><a href="freizeitparkxcare.html">Freizeitpark Xcaret</a></li>
+                                        <li><a href="index4.html">Reise 4</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-sm-6">
                                     <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">Reise 5</a></li>
-                                        <li><a href="#!">Reise 6</a></li>
-                                        <li><a href="#!">Reise 7</a></li>
-                                        <li><a href="#!">Reise 8</a></li>
+                                        <li><a href="index5.html">Reise 5</a></li>
+                                        <li><a href="index6.html">Reise 6</a></li>
+                                        <li><a href="index7.html">Reise 7</a></li>
+                                        <li><a href="index8.html">Reise 8</a></li>
                                     </ul>
                                 </div>
                             </div>
