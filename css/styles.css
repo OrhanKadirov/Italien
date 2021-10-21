@@ -2,7 +2,7 @@
 /* Custom.scss */
 
 header {
-  background-image: url(../../Image/banner/mexico.png);
+  background-image: url(./../Image/banner/mexico.png);
   color: #0e0e0e;
 }
 
